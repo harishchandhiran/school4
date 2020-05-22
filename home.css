@@ -1,0 +1,97 @@
+h1 {
+    text-decoration: double underline brown;
+    font: 35px Arial, Times New Roman;
+    text-align: center;
+    color: brown;
+}
+
+h2 {
+    color: saddlebrown;
+    text-align: center;
+    text-decoration: double underline saddlebrown;
+}
+
+h3 {
+    text-decoration: underline;
+    font-size: x-large;
+    font-style: inherit;
+    font-weight: bold;
+}
+
+h5 {
+    font: 20px Arial, Monolithic;
+    color: black;
+    text-align: center;
+    text-decoration: double underline;
+}
+
+p {
+    text-decoration: double underline;
+    font-size: x-large;
+}
+
+a {
+    color: navy;
+    font: 30px Arial;
+}
+
+.school {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.header {
+    background-color: mediumturquoise;
+    border: solid blue 30px;
+}
+
+img {
+    border: solid;
+}
+
+.item {
+    position: relative;
+}
+
+.item h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.item:hover h3 {
+    opacity: 1;
+}
+
+.item:hover img {
+    opacity: 0.33;
+}
+
+.grid {
+    position: relative;
+}
+
+.grid h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.grid:hover h3 {
+    opacity: 1;
+}
+
+.grid:hover img {
+    opacity: 0.33;
+}

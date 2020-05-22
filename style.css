@@ -1,0 +1,54 @@
+h1 {
+    color: brown;
+    margin: 30px;
+    margin-left: 100px;
+}
+
+h2 {
+    color: navy;
+    text-align: center;
+    text-decoration: underline double navy;
+}
+
+a {
+    color: navy;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: x-large;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+h5,img {
+    border: solid;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.header {
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    color: navy;
+    font-size: x-large;
+    /*text-align: center;
+    border: solid;
+    text-decoration: underline double navy;*/
+    font-weight: bold;
+    font-style: oblique;
+    /*text-transform: unset;*/
+}
+
+body{
+    background-color: chartreuse;
+}
